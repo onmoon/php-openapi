@@ -206,6 +206,7 @@ class Paths implements SpecObjectInterface, DocumentContextInterface, ArrayAcces
      * @link http://php.net/manual/en/arrayaccess.offsetset.php
      * @param mixed $offset The offset to assign the value to.
      * @param mixed $value The value to set.
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
@@ -217,6 +218,7 @@ class Paths implements SpecObjectInterface, DocumentContextInterface, ArrayAcces
      * Offset to unset
      * @link http://php.net/manual/en/arrayaccess.offsetunset.php
      * @param mixed $offset The offset to unset.
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
